@@ -24,23 +24,25 @@ iii) You can't use markdown syntax inside chunk options, so if you want to e.g. 
 -->
 
 # Programmed and flexible: variation in migratory restlessness {#programmed-and-flexible}
+<!-- ## *Journal of Avian Biology* {-} -->
 \minitoc <!-- this will include a mini table of contents-->
 
 <!--
 The {#rmd-basics} text after the chapter declaration will allow us to link throughout the document back to the beginning of this chapter. Reference labels will automatically be generated if you don't specify them, as the lowercase title with spaces replaced by hypens (e.g. r-markdown-basics). Look for the reference to this label at the beginning of the next chapter.
 -->
 
----------
+<!-- --------- -->
 
-<!-- ```{r pagebreak, results='asis', eval=knitr::is_latex_output(),echo=F,message=F} -->
-<!-- cat('\\newpage') -->
-<!-- ``` -->
+```{r, results='asis', eval=knitr::is_latex_output(),echo=F,message=F}
+cat('\\newpage')
+```
 
 
-```{r zug, out.width = "100%", message=F, echo=F}
+```{r zug, out.width = "100%", message=F, echo=F, fig.align='center'}
 pages <- list.files(file.path("pdf_chapters/zug"),pattern="zug_crop_Part",full.names = T)
 
 knitr::include_graphics(pages)  
+if (knitr::is_latex_output()) cat('\\pagebreak')
 ```
 
 
