@@ -8,13 +8,16 @@ documentclass: book
 bibliography: references.bib
 ---
 
-(ref:cicero-quote) --- Cicero's *de Finibus Bonorum et Malorum*.
+\part{A continental perspective}
 
-```{block type='savequote', quote_author='(ref:cicero-quote)', include=knitr::is_latex_output()}
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
 
-There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...
-```
+<!-- (ref:cicero-quote) --- Cicero's *de Finibus Bonorum et Malorum*. -->
+
+<!-- ```{block type='savequote', quote_author='(ref:cicero-quote)', include=knitr::is_latex_output()} -->
+<!-- Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... -->
+
+<!-- There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain... -->
+<!-- ``` -->
 
 <!-- 
 Notes for adding an opening quote in PDF output:
@@ -24,8 +27,9 @@ iii) You can't use markdown syntax inside chunk options, so if you want to e.g. 
 -->
 
 <!-- # Versatile migratory strategies and evolutionary insights revealed by tracks of wild Eurasian blackcaps {#blackcap-geo} -->
-\chapter{Versatile migratory strategies and evolutionary insights revealed by\\tracks of wild Eurasian blackcaps}
-\chaptermark{Versatile migratory strategies in blackcaps}
+# Versatile migratory strategies in blackcaps {#blackcap-geo}
+<!-- \chapter[Migratory strategies in blackcaps across Europe]{Migratory strategies in blackcaps across Europee} -->
+<!-- \chaptermark{Migratory strategies in blackcaps across Europe} -->
 
 <!-- \begin{flushright} -->
 <!-- \textbf{Submitted to \textit{Current Biology}} -->
@@ -40,7 +44,7 @@ The {#rmd-basics} text after the chapter declaration will allow us to link throu
 knitr::opts_knit$set(root.dir = "/Users/Benjamin/Documents/Oxford/Blackcaps/Blackcap_Geolocator_Analysis/blackcap_geo_comparative")
 ```
 
-```{r blackcap-geo, child = '/Users/Benjamin/Documents/Oxford/Blackcaps/Blackcap_Geolocator_Analysis/blackcap_geo_comparative/scripts/Blackcap_geolocator_paper.Rmd'}
+```{r blackcap-geo, child = '/Users/Benjamin/Documents/Oxford/Blackcaps/Blackcap_Geolocator_Analysis/blackcap_geo_comparative/scripts/Blackcap_geolocator_paper.Rmd',eval=FALSE}
 ```
 
 
