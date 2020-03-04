@@ -8,13 +8,12 @@ documentclass: book
 bibliography: references.bib
 ---
 
-<!-- (ref:cicero-quote) --- Cicero's *de Finibus Bonorum et Malorum*. -->
+\part{The migratory programme}
 
-<!-- ```{block type='savequote', quote_author='(ref:cicero-quote)', include=knitr::is_latex_output()} -->
-<!-- Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... -->
-
-<!-- There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain... -->
-<!-- ``` -->
+```{block type='savequote', include=knitr::is_latex_output()}
+**Van Doren, B.M.**, Liedvogel, M., and Helm, B. (2017). Programmed and flexible: long-term Zugunruhe data highlight the many axes of variation in avian migratory behaviour.  
+*Journal of Avian Biology* 48, 155–172.
+```
 
 <!-- 
 Notes for adding an opening quote in PDF output:
@@ -23,23 +22,33 @@ ii) include=knitr::opts_knit$get('rmarkdown.pandoc.to') == 'latex' means that th
 iii) You can't use markdown syntax inside chunk options, so if you want to e.g. italicise a book name in the quote reference use a 'text reference': Create a named piece of text with '(ref:label-name) My text', then link to this in the chunk option with quote_author='(ref:label-name)'
 -->
 
-# Programmed and flexible: long-term *Zugunruhe* data highlight the many axes of variation in avian migratory behaviour {#programmed-and-flexible}
-\chaptermark{Axes of variation in migratory restlessness}
+<!-- # Migratory behaviour of stonechats in a common garden {#programmed-and-flexible} -->
 
-\begin{flushright}
-\textbf{\textit{Journal of Avian Biology} 48:155--172 (2017)}
-\end{flushright}
+\chapter[Migratory behaviour of stonechats in a common garden]{Migratory behaviour of stonechats\\in a common garden}
+
+<!-- # Programmed and flexible: long-term *Zugunruhe* data highlight the many axes of variation in avian migratory behaviour {#programmed-and-flexible} -->
+<!-- \chaptermark{Axes of variation in migratory restlessness} -->
+<!-- \chaptermark{Quantifying migratory behaviour in a common garden} -->
+
+<!-- \begin{flushright} -->
+<!-- \textbf{\textit{Journal of Avian Biology} 48:155--172 (2017)} -->
+<!-- \end{flushright} -->
+
+<!-- ```{block type='flushright'} -->
+<!-- **Van Doren, B.M.**, Liedvogel, M., and Helm, B. (2017). Programmed and flexible: long-term Zugunruhe data highlight the many axes of variation in avian migratory behaviour. *Journal of Avian Biology* 48, 155–172. -->
+<!-- ``` -->
+
 
 ```{r, results='asis', eval=knitr::is_latex_output(),echo=F,message=F}
 cat('\\newpage')
 ```
 
-```{r zug, out.width='100%', echo=F, results='asis'}
+```{r zug,  out.width = "100%", message=F, echo=F, fig.align='center'}
 pages <- list.files(file.path("pdf_chapters/zug"),
                     pattern="zug_crop_Part",full.names = T)
 library(stringr)
 knitr::include_graphics(pages)
-#if (knitr::is_latex_output()) cat('\\pagebreak')
+# if (knitr::is_latex_output()) cat('\\pagebreak')
 
 # cat(str_c("\\makebox[\\linewidth][c]{\\includegraphics{", pages, "}}"))
 

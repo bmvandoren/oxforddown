@@ -8,12 +8,9 @@ documentclass: book
 bibliography: references.bib
 ---
 
-(ref:another-old-dude) --- Clever guy's *de Finibus Bonorum et Malorum*.
-
-```{block type='savequote', quote_author='(ref:another-old-dude)', include=knitr::is_latex_output()}
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-
-There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...
+```{block type='savequote', include=knitr::is_latex_output()}
+Helm, B.,* **Van Doren, B.M.**,* Hoffmann, D., and Hoffmann, U. (2019). Evolutionary response to climate change in migratory pied flycatchers. *Current Biology* 29, 1–6.
+\begin{scriptsize} * Equal contributions. \end{scriptsize}
 ```
 
 <!-- 
@@ -23,18 +20,27 @@ ii) include=knitr::opts_knit$get('rmarkdown.pandoc.to') == 'latex' means that th
 iii) You can't use markdown syntax inside chunk options, so if you want to e.g. italicise a book name in the quote reference use a 'text reference': Create a named piece of text with '(ref:label-name) My text', then link to this in the chunk option with quote_author='(ref:label-name)'
 -->
 
-# Evolutionary response to climate change in migratory pied flycatchers {#evolutionary-response}
+# Evolutionary response to climate change in pied flycatchers {#evolutionary-response}
 \chaptermark{Evolutionary response to climate change}
 
-\begin{flushright}
-\textbf{\textit{Current Biology} 29:3714--3719.e4 (2019)}
-\end{flushright}
+<!-- ```{block type='flushright'} -->
+
+<!-- Helm, B., **Van Doren, B.M.**, Hoffmann, D., and Hoffmann, U. (2019). Evolutionary response to climate change in migratory pied flycatchers.  -->
+
+<!-- *Current Biology* 29, 1–6. -->
+
+<!-- ``` -->
+
+
+<!-- \begin{flushright} -->
+<!-- \textbf{\textit{Current Biology} 29:3714--3719.e4 (2019)} -->
+<!-- \end{flushright} -->
 
 ```{r, results='asis', eval=knitr::is_latex_output(),echo=F,message=F}
 cat('\\newpage')
 ```
 
-```{r pied, out.width='100%', echo=F, results='asis'}
+```{r pied,  out.width = "100%", message=F, echo=F, fig.align='center'}
 pages <- list.files(file.path("pdf_chapters/pied"),
                     pattern="pied_crop_Part",full.names = T)
 library(stringr)
