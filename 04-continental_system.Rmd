@@ -37,15 +37,18 @@ cat('\\newpage')
 ```
 
 
-```{r forecast, out.width = "100%", message=F, echo=F, fig.align='center'}
-pages <- list.files(file.path("pdf_chapters/forecast"),pattern="forecast_crop_Part",full.names = T)
+```{r forecast, echo=F, results='asis'}
+pages <- list.files(file.path("pdf_chapters/forecast"),
+                    pattern="forecast_crop_Part",full.names = T)
 
-knitr::include_graphics(pages)  
-# if (knitr::is_latex_output()) cat('\\pagebreak')
+cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=1.2\\linewidth]{", pages, "}} \\end{center} \\newpage \n"))
+
 ```
 
-```{r forecast-supp, out.width = "100%", message=F, echo=F}
+
+```{r forecast-supp, echo=F, results='asis'}
 pages <- list.files(file.path("pdf_chapters/forecast"),pattern="forecast_supp_crop_Part",full.names = T)
 
-knitr::include_graphics(pages)  
+cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=1.1\\linewidth]{", pages, "}} \\end{center} \\newpage \n"))
 ```
+

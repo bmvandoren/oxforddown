@@ -40,19 +40,37 @@ iii) You can't use markdown syntax inside chunk options, so if you want to e.g. 
 cat('\\newpage')
 ```
 
-```{r pied,  out.width = "100%", message=F, echo=F, fig.align='center'}
+<!-- ```{r pied,  out.width = "100%", message=F, echo=F, fig.align='center'} -->
+<!-- pages <- list.files(file.path("pdf_chapters/pied"), -->
+<!--                     pattern="pied_crop_Part",full.names = T) -->
+<!-- library(stringr) -->
+<!-- knitr::include_graphics(pages) -->
+<!-- #if (knitr::is_latex_output()) cat('\\pagebreak') -->
+
+<!-- # cat(str_c("\\makebox[\\linewidth][c]{\\includegraphics{", pages, "}}")) -->
+
+<!-- ``` -->
+
+```{r pied, echo=F, results='asis'}
 pages <- list.files(file.path("pdf_chapters/pied"),
                     pattern="pied_crop_Part",full.names = T)
-library(stringr)
-knitr::include_graphics(pages)
-#if (knitr::is_latex_output()) cat('\\pagebreak')
 
-# cat(str_c("\\makebox[\\linewidth][c]{\\includegraphics{", pages, "}}"))
+cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics{", pages, "}} \\end{center} \\newpage \n"))
 
 ```
 
-```{r pied-supp, out.width = "100%", message=F, echo=F}
+
+
+<!-- ```{r pied-supp, out.width = "100%", message=F, echo=F} -->
+<!-- pages <- list.files(file.path("pdf_chapters/pied"),pattern="pied_supp_crop_Part",full.names = T) -->
+
+<!-- knitr::include_graphics(pages)   -->
+<!-- ``` -->
+
+
+```{r pied-supp, echo=F, results='asis'}
 pages <- list.files(file.path("pdf_chapters/pied"),pattern="pied_supp_crop_Part",full.names = T)
 
-knitr::include_graphics(pages)  
+cat(paste0("\\begin{center} \\includegraphics[width=1\\linewidth]{",pages,"} \\end{center} \\newpage \n"))
 ```
+
