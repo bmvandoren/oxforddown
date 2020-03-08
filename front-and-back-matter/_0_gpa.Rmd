@@ -1,0 +1,88 @@
+---
+output:
+  pdf_document: default
+---
+<!-- \begin{center} -->
+
+<!-- \begin{tabular}{l} -->
+
+<!-- He’s a birder---briefly, a student of birds---  \\ -->
+<!-- Noting those he sees in his mind or his  \\ -->
+<!-- camera, items found for collection, the many\\ -->
+<!-- made more by research, or his travels.\\\\ -->
+
+<!-- They’re his science, he says, telling you, if you \\ -->
+<!-- listen, of habits and rarity, but what you see \\ -->
+<!-- are the colors and shapes, the moments of \\ -->
+<!-- movement he captures, showing themselves. \\\\ -->
+
+<!-- Strange that his passion, his care, is returned  \\ -->
+<!-- if at all by cold looks---round, fixed, with no affect  \\ -->
+<!-- save what denies a connection. This doubtless  \\\\ -->
+
+<!-- was what Audubon himself saw, as Eve did,  \\ -->
+<!-- untempted.  Better reptilian, the student may        \\ -->
+<!-- say---or perhaps “prelapsarian,” if such ever was---  \\\\ -->
+
+<!-- thus stopping short of things outside study.  \\ -->
+<!-- Devoted to kinds beyond counting, he includes   \\ -->
+<!-- what’s sweet, fierce, often unseen but yet heard,  \\ -->
+<!-- the breathtakingly beautiful stars of his sky.  \\\\ -->
+
+<!-- --- \textit{Birder}, by John Van Doren (1928--2019) -->
+
+<!-- \end{tabular} -->
+<!-- \end{center} -->
+
+
+<!-- \begin{center} -->
+
+<!-- \begin{tabular}{l} -->
+
+<!-- See there, look--- \\ -->
+<!-- Bright, small  \\ -->
+<!-- Upon the sidewalk, \\ -->
+<!-- A sign of fall--- \\\\ -->
+
+<!-- That pretty goldfinch, \\ -->
+<!-- Flying high \\ -->
+<!-- Mistook a window \\ -->
+<!-- Reflecting sky. \\\\ -->
+
+<!-- This time of year \\  -->
+<!-- So many downed, \\  -->
+<!-- Meeting a heaven \\  -->
+<!-- Hard as ground. \\\\ -->
+
+<!-- \end{tabular} -->
+<!-- \\ -->
+<!-- \vspace{12pt} -->
+<!-- -- \textit{Migration}, by John Van Doren (1928--2019) -->
+
+<!-- \end{center} -->
+
+
+\begin{center}
+
+\begin{tabular}{l}
+
+He’s a birder---briefly, a student of birds---  \\
+Noting those he sees in his mind or his  \\
+camera, items found for collection, the many\\
+made more by research, or his travels.\\\\
+
+They’re his science, he says, telling you, if you \\
+listen, of habits and rarity, but what you see \\
+are the colors and shapes, the moments of \\
+movement he captures, showing themselves. \\\\
+
+Devoted to kinds beyond counting, he includes   \\
+what’s sweet, fierce, often unseen but yet heard,  \\
+the breathtakingly beautiful stars of his sky.  \\\\
+
+\end{tabular}
+
+\vspace{12pt}
+-- From \textit{Birder}, by John Van Doren (1928--2019)
+
+\end{center}
