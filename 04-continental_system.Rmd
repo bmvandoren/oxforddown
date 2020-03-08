@@ -20,7 +20,8 @@ iii) You can't use markdown syntax inside chunk options, so if you want to e.g. 
 -->
 
 <!-- # A continental system for forecasting bird migration {#continental-system} -->
-\chapter[A continental system for forecasting bird migration]{A continental system for\\forecasting bird migration}
+\hypertarget{forecast}{
+\chapter[A continental system for forecasting bird migration]{A continental system for\\forecasting bird migration}\label{forecast}}
 \chaptermark{Forecasting bird migration}
 
 <!-- \begin{flushright} -->
