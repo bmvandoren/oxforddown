@@ -55,7 +55,7 @@ cat('\\newpage')
 <!-- ``` -->
 
 ```{r zug, echo=F, results='asis'}
-pages <- list.files(file.path("pdf_chapters/zug"),
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/zug"),
                     pattern="zug_crop_Part",full.names = T)
 # knitr::include_graphics(pages)
 # if (knitr::is_latex_output()) cat('\\pagebreak')
@@ -73,7 +73,7 @@ cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=1.
 
 
 ```{r zug-supp, echo=F, results='asis'}
-pages <- list.files(file.path("pdf_chapters/zug"),pattern="zug_supp_crop_Part",full.names = T)
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/zug"),pattern="zug_supp_crop_Part",full.names = T)
 
 cat(paste0("\\begin{center} \\includegraphics[width=1\\linewidth]{",pages,"} \\end{center} \\newpage \n"))
 ```

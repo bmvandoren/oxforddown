@@ -52,7 +52,7 @@ cat('\\newpage')
 <!-- ``` -->
 
 ```{r pied, echo=F, results='asis'}
-pages <- list.files(file.path("pdf_chapters/pied"),
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/pied"),
                     pattern="pied_crop_Part",full.names = T)
 
 cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics{", pages, "}} \\end{center} \\newpage \n"))
@@ -69,7 +69,7 @@ cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics{", pages
 
 
 ```{r pied-supp, echo=F, results='asis'}
-pages <- list.files(file.path("pdf_chapters/pied"),pattern="pied_supp_crop_Part",full.names = T)
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/pied"),pattern="pied_supp_crop_Part",full.names = T)
 
 cat(paste0("\\begin{center} \\includegraphics[width=1\\linewidth]{",pages,"} \\end{center} \\newpage \n"))
 ```

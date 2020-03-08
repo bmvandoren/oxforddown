@@ -38,23 +38,25 @@ The {#rmd-basics} text after the chapter declaration will allow us to link throu
 -->
 
 
-```{r, results='asis', eval=knitr::is_latex_output(),echo=F,message=F}
+```{r, include=T, results='asis', eval=knitr::is_latex_output(),echo=F,message=F}
 cat('\\newpage')
 ```
 
 
 
-```{r lights, echo=F, results='asis'}
-pages <- list.files(file.path("pdf_chapters/lights"),
+```{r lights, include=T, echo=F, results='asis'}
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/lights"),
                     pattern="lights_crop_Part",full.names = T)
+
 
 cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=1.2\\linewidth]{", pages, "}} \\end{center} \\newpage \n"))
 
 ```
 
 
-```{r lights-supp, echo=F, results='asis'}
-pages <- list.files(file.path("pdf_chapters/lights"),pattern="lights_supp_crop_Part",full.names = T)
+```{r lights-supp, include=T, echo=F, results='asis'}
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/lights"),pattern="lights_supp_crop_Part",full.names = T)
+
 
 cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=1.2\\linewidth]{", pages, "}} \\end{center} \\newpage \n"))
 ```

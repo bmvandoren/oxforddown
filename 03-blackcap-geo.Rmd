@@ -10,14 +10,10 @@ bibliography: references.bib
 
 \part{A continental perspective}
 
-
-<!-- (ref:cicero-quote) --- Cicero's *de Finibus Bonorum et Malorum*. -->
-
-<!-- ```{block type='savequote', quote_author='(ref:cicero-quote)', include=knitr::is_latex_output()} -->
-<!-- Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... -->
-
-<!-- There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain... -->
-<!-- ``` -->
+```{block type='savequote', include=knitr::is_latex_output()}
+Delmore, K.,* **Van Doren, B.M.**,* Conway, G.J., Curk, T., Garrido-Garduño, T., Germain, R.R., Hasselmann, T., Hiemer, D., van der Jeugd, H.P., Justen, H., Lugo Ramos, J.S., Maggini, I., Phillips, R.J., Remisiewicz, M., Roberts, G.C.M., Sheldon, B.C., Vogl, W., and Liedvogel, M. Versatile migratory strategies and evolutionary insights revealed by tracks of wild Eurasian blackcaps. Formatted for *Current Biology*.
+\begin{scriptsize} * Equal contributions. \end{scriptsize}
+```
 
 <!-- 
 Notes for adding an opening quote in PDF output:
@@ -44,7 +40,11 @@ The {#rmd-basics} text after the chapter declaration will allow us to link throu
 knitr::opts_knit$set(root.dir = "/Users/Benjamin/Documents/Oxford/Blackcaps/Blackcap_Geolocator_Analysis/blackcap_geo_comparative")
 ```
 
-```{r blackcap-geo, child = '/Users/Benjamin/Documents/Oxford/Blackcaps/Blackcap_Geolocator_Analysis/blackcap_geo_comparative/scripts/Blackcap_geolocator_paper.Rmd',eval=FALSE}
+```{r include=TRUE,echo=FALSE}
+print_references <- FALSE
+```
+
+```{r blackcap-geo, child = '/Users/Benjamin/Documents/Oxford/Blackcaps/Blackcap_Geolocator_Analysis/blackcap_geo_comparative/scripts/Blackcap_geolocator_paper.Rmd',eval=TRUE}
 ```
 
 
