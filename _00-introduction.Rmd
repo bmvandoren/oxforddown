@@ -155,13 +155,13 @@ To cope with long-term environmental changes, such as climate change and habitat
 
 ## Migration across scales {-}
 
-Understanding multifaceted natural processes is best approached from multiple perspectives, and avian migration is no exception. Migratory birds form an interconnected network with multiple layers of complexity. The migratory phenotype of an individual is influenced by a range of internal and external factors, from genes and developmental processes to social and atmospheric environments. At the same time, a population of migratory birds might occupy habitats across the world at different times of year, requiring a global perspective, and hundreds of species interact to form hemispheric migration systems. Understanding bird migration requires that we think across scales, from individuals to systems. 
+Understanding multifaceted natural processes is best approached from multiple perspectives, and avian migration is no exception. Migratory birds form an interconnected network with multiple layers of complexity. The migratory phenotype of an individual is influenced by a range of internal and external factors, from genes and developmental processes to social environments and atmospheric conditions. At the same time, a population of migratory birds might occupy habitats across the world at different times of year, and hundreds of species interact to form hemispheric migration systems. Understanding bird migration requires that we think across scales, from individuals to global systems. 
 
-The individual is the most basic unit of a migratory system. It is important to recognize that each individual will possess an underlying migratory programme, dictated by a suite of factors. Most obvious is its species identity, because individuals of a species share a common genetic architecture. Many species show strong connectivity by breeding population, in which individuals in a population are share a common wintering area [**ref**]. Individuals are also influenced by their immediate social and kin relations [**ref**], as well as individual experience, health, and demographics (e.g. age, sex, and social hierarchy) [**ref**]. Finally, each individual experiences a unique combination of environmental conditions, dictated by location, behavior, and physical traits. All of these factors are brought to bear on the migratory phenotype of an individual bird. An individual perspective is therefore essential to understanding the drivers of variation in migratory behaviour. 
+The individual is the fundamental unit of a migration system. It is important to recognize that each individual will possess an underlying migratory programme, influenced by a suite of factors. Most obvious is its species identity and the  common genetic architecture it shares with conspecifics. Population identity may also be important, as many species show strong migratory connectivity by breeding population [**ref**]. Individuals are also influenced by their immediate social and kin relations [**ref**], as well as individual experience, health, and demographics (e.g. age, sex, and social hierarchy) [**ref**]. Finally, each individual experiences a unique combination of environmental conditions, dictated by location, behavior, and physical traits. All of these factors are brought to bear on the migratory phenotype of an individual An individual perspective is therefore essential to understanding the drivers of variation in migratory behaviour. 
 
-At the same time, an individual-based perspective is insufficient to address the most pressing scientific questions of today, which require a wider view on natural systems. Widespread and ongoing population declines among migrants [**ref 3 billion**] require species-level perspectives to understand and address. In addition to direct conservation, simply understanding how populations are actively interacting with human society and responding to global change will require studies with global scope, as environments and the changes they are experiencing are resoundingly heterogeneous [**ref heterogeneous climate change**]. A wider view on bird migration is necessary to capture continental movement patterns, study how migration networks behave in the face of habitat loss, identify conservation bottlenecks, and understand species-level demographics [**ref Adriaan**]. 
+At the same time, an individual-based perspective is insufficient to address the most pressing scientific questions of today, which require a wider view on natural systems. Widespread and ongoing population declines among migrants [**ref 3 billion**] warrant species-level perspectives to understand and address these issues. In addition to direct conservation, simply understanding how populations actively interact with human society and respond to global change will require studies with global scope, as environments and the changes they are experiencing are resoundingly heterogeneous [**ref heterogeneous climate change**]. A wider view on bird migration is necessary to capture continental movement patterns, study how migration networks behave in the face of habitat loss, identify conservation bottlenecks, and quantify demographic trends [**ref Adriaan**]. 
 
-Therefore, a modern understanding of bird migration requires integrating the behaviour of individuals, populations, species, and even entire hemispheric migration systems. Migratory systems facilitate large scale fluxes of biomass and transport of nutrients, with consequences for ecosystem services, nutrient cycling, pathogen and parasite transport, and biotic interactions from competition to pollination. In addition, migratory bird species are vastly interconnected. During migration, migrants form mixed species groups during active flight [**ref**] and during foraging and stopover periods [**ref**]. Many species give vocalizations in both contexts [**ref**], but the extent of their function is poorly known. What is clear is that migratory bird species form an interconnected, global system, requiring study across scales. To only study migration from one point of view would be to miss important components of avian biology. 
+Therefore, a modern understanding of bird migration requires integrating the behaviour of individuals, populations, species, and even entire hemispheric migration systems. Migratory systems facilitate large scale fluxes of biomass and transport of nutrients, with consequences for ecosystem services, nutrient cycling, pathogen and parasite transport, and biotic interactions from competition to pollination. In addition, migratory bird species are vastly interconnected. During migration, migrants form mixed species groups during active flight [**ref**] and foraging and stopover periods [**ref**]. Many species give vocalizations in both contexts [**ref**], but the extent of their function is poorly known. What is clear is that migratory bird species form an interconnected, global system, requiring study across scales. To only study migration from one point of view would be to miss important components of avian biology. 
 
 Multiple perspectives are important not only in scale, but also in approach. Avian migration should not be thought of from exclusively ecological, behavioural, or evolutionary points of view. In this thesis, I attempt to improve our understanding of the flexibility of avian migration across spatial scales, taxonomic groups, and disciplines.  
 
@@ -185,32 +185,48 @@ Multiple perspectives are important not only in scale, but also in approach. Avi
 
 <!-- ## Open questions (?) {-} -->
 
-<!-- <!-- Summary and open questions --> -->
+<!-- Summary and open questions -->
 
 <!--   + Migrants show immense flexibility, hard to grasp it all -->
 <!--   + Where does flexibility come from? How much of response is evolutionary?  -->
 <!--   + How do individual insights scale up to species/system level? -->
 
 ## Aims of thesis {-}
+  
+The aim of this thesis is to investigate the drivers of change and flexibility in avian migration across scales, from the individual bird to the hemispheric migration system. I focus on three themes, each comprising two chapters: (1) the innate migratory programme, (2) continental perspectives on migration, (3) and migration in the human-driven Anthropocene. 
 
-### Geographic, and taxonomic scope {-}
+### Approaches to studying migration {-}
+
+The methods used to study migration are nearly as diverse as the phenomenon itself. Ringing is one of the oldest means of tracking individual birds [**ref Audubon?**]; in the last **__** years, **__** birds have been ringed in the United Kingdom alone, and these marked birds have been recaptured **__** times. Around the world, ringing has led to invaluable insight into the movements, longevity, and ecology of thousands of bird species. In addition, colorful rings designed to be read in the field by observers---not only on a bird in the hand---allow marked individuals to be monitored in the field without disturbance, making possible detailed observations of individual behaviour. 
+
+Tracking technology using Global Positioning System (GPS) receivers and smaller light-level geolocators is well enough miniaturised to enable the tracking of all but the very lightest bird species. However, for species under 20 g, representing the majority of passerines **(?)** [**ref**], only archival light-level geolocators are sufficiently lightweight; these devices can record locations to approximately 100-km accuracy [**ref**], and the devices must be physically recovered to obtain the data. Nevertheless, these devices allow scientists to monitor migratory birds daily in the wild, leading to a multitude of invaluable insights [**Ref some geolocator papers**].
+
+Tracking technology allows scientists to study migratory phenotypes as they manifests in wild populations. Yet, migratory phenotypes may be strongly influenced by environmental conditions, which can be widely variable in the wild. Some questions therefore require experimental approaches in a laboratory setting, especially those pertaining to the innate migratory programme. Lab-based studies of migratory restlessness assay the behaviour of migrants in captivity, which is relatively well correlated to activity in the wild [**ref**]. The major advantage of a captive approach is that investigators can place birds under standardized, "common garden" conditions, in order to remove environmental variation as a source of observed phenotypic differences. 
+
+Today, biologists are making increasing use of large datasets to study animal behavior and ecology. For decades, ornithologists have used various types of radar to study birds in active migration [**ref**]. Doppler weather surveillance radars scan huge regions of airspace and form the basis of many governmental weather monitoring and prediction services. In the United States, the NEXt Generation RADar network (NEXRAD) has been operating since the mid-1990s, and analyses of these data have yielded important insights into the North American bird migration system [**refs**]. 
+
+In this thesis, I combine this suite of approaches to study avian migration. I use data from captive studies to study the migratory programme, use data from radar and individual tracking devices to explore the variation and flexibility of migration at boh local and continental scales, and I use ringing recovery and visual resight data to study the wintering ecology of a migratory bird. 
+
+  <!-- - Lab/captive assays -->
+  <!-- - Tracking (geolocator, gps) - only geo available for small songbirds -->
+  <!-- - Large datasets - citizen science, remote sensing -->
+  <!-- - Direct field observation -->
+
+  <!-- + Studying the migratory program -->
+  <!--   + Lab/field based assays of restlessness behavior -->
+  <!--   + Big question: how does the migratory programme relate to actual migration in the wild? Methods may not be perfect - Zug != migration in the wild.  -->
+  <!--   + Approaches that explore interspecies/population differences in restlessness and integrates these captive assays to behavior in the wild are particularly valuable for understanding their use in the future -->
+
+### Geographic and taxonomic scope {-}
+
+Like so many migratory birds, this thesis connects disparate regions of the world and crosses taxonomic boundaries. 
+
 (across hemispheres)
   - European migratory passerines
     - Stonechats
     - Flycatchers
     - Blackcaps
   - US migration system
-  
-### Approaches/methods to studying migration {-}
-  - Lab/captive assays
-  - Tracking (geolocator, gps) - only geo available for small songbirds
-  - Large datasets - citizen science, remote sensing
-  - Direct field observation
-
-  + Studying the migratory program
-    + Lab/field based assays of restlessness behavior
-    + Big question: how does the migratory programme relate to actual migration in the wild? Methods may not be perfect - Zug != migration in the wild. 
-    + Approaches that explore interspecies/population differences in restlessness and integrates these captive assays to behavior in the wild are particularly valuable for understanding their use in the future
 
 ### Thesis outline 
 
