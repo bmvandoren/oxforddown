@@ -61,20 +61,20 @@ Migratory birds face a variety of threats. The habitats birds evolved to occupy 
 
 <!-- (- Already seeing some responses) -->
 
-Fortunately, many species are responding to global change in detectable ways. As the arrival of spring has grown earlier, so too have the spring arrival dates of many migratory bird species [**ref**]. As locations with suitable climatic conditions have shifted, so too have birds' geographic ranges [**ref**]. In some cases, migratory routes have changed or individuals have stopped migrating entirely, as birds take advantage of new and changing resource regimes [**ref** storks, etc.]. It is evident that many bird species possess an ability to rapidly respond to environmental change. At the same time, other species appear to be relatively rigid in their behavior, prompting concerns that even some of the world's most mobile animals will fail to adapt in time [**ref**]. Moreover, what will come of less vagile organisms, many of which birds rely on for food and shelter? We lack a full understanding of the flexibility of migratory birds, and this knowledge is sorely needed.
+Fortunately, many species are responding to global change in detectable ways. As the arrival of spring has grown earlier, so too have the spring arrival dates of many migratory bird species [**ref**]. As locations with suitable climatic conditions have shifted, so too have birds' geographic ranges [**ref**]. In some cases, migratory routes have changed or individuals have stopped migrating entirely, as birds take advantage of new and changing resource regimes [**ref** storks, etc.]. It is evident that many bird species possess an ability to rapidly respond to environmental change. At the same time, other species appear to be relatively rigid in their behavior, prompting concerns that even some of the world's most mobile animals will fail to adapt in time [**ref**]. Moreover, what will come of less vagile organisms, many of which birds rely on for food and shelter? We lack understanding of the flexibility of migratory birds, and this knowledge is crucial to answering these questions.
 
 <!-- (- But is it enough? How flexible are birds...) -->
 
   
 ## Flexibility in migration {-}
   
-The migrations of birds are highly diverse journeys, undertaken by individuals responding to---and often predicting---changing conditions. Variation in migratory behavior is immense at all taxonomic levels, and even within species and populations. Movements may be long- or short-distance, obligate or facultative, regular or irregular, performed singly or in groups, and rigidly timed or conditions-dependent [**ref**]. This diversity in migratory strategies mirrors large variation in the degree of flexibility migrants demonstrate as they interact with and respond to the vagaries of the natural world. Flexibility in migration manifests at a number of levels: individuals must interact with the atmosphere in active flight, adjust to variable conditions on the ground, and populations must be responsive to environmental changes over the long term. 
+The migrations of birds are highly diverse journeys, undertaken by individuals responding to---and often predicting---changing conditions. Variation in migratory behavior is immense at all taxonomic levels, and even within species and populations. Movements may be long- or short-distance, obligate or facultative, regular or irregular, performed singly or in groups, and rigidly timed or conditions-dependent [**ref**]. This diversity in migratory strategies mirrors large variation in the degree of flexibility migrants demonstrate as they interact with and respond to the vagaries of the natural world. Flexibility makes successful migration possible, and it manifests at a number of levels: individuals in active flight must interact with the atmosphere and adjust to variable conditions on the ground, and populations must be responsive to environmental changes over the long term. 
 
 <!-- Short-term flexibility -- immediate response to environment during active migration -->
 
 ### Responding to a dynamic atmosphere {-}
 
-Migratory birds respond to variation in their environment in a variety of ways. During active migration, birds move through a dynamic atmosphere, a flowing medium that often moves faster than a bird can fly. Atmospheric dynamics are highly changeable, and they can strongly affect a bird's flight trajectory, energy expenditure, and ultimately its survival [**ref alerstam**]. All avian navigators most possess the capability to effectively and efficiently interact with a variable atmosphere, or risk costly and potentially fatal detours. Indeed, birds are frequently selective with the time, direction, and altitude of their movements [**refs**]. The decision to migrate is influenced strongly by wind and weather conditions, as birds select departure times with favorable or even optimal conditions for progress towards their destinations [**refs**]. Yet prevailing wind regimes and the time pressure of a relentlessly advancing year mean that birds cannot always be selective. As powered fliers, birds have the ability to partially or fully compensate for wind drift incurred during migratory flights, and they show complex interactions with moving atmospheric flows. Frequently, birds adopt a compensatory strategy, and the degree to which migrants fight the wind is influenced by a range of factors, including body size, time pressure, wind conditions, and the potential dangers of being drifted off course---for example, over open ocean [**ref** - NE US paper]. Migrants respond not only to wind but strongly to temperature, precipitation, and atmospheric pressure [**refs**], cues that contain predictive information about the conditions they will experience both *en route* and upon arrival. As weather conditions are often variable, migrants must be flexible enough to respond to changing conditions and adjust their journeys accordingly in order to stay on course and minimize delays. 
+Migratory birds respond to variation in their environment in a variety of ways. During active migration, birds move through a dynamic atmosphere, a flowing medium that often moves faster than a bird can fly. Atmospheric dynamics are highly changeable, and they can strongly affect a bird's flight trajectory, energy expenditure, and ultimately its survival [**ref alerstam**]. All avian navigators most possess the capability to effectively and efficiently interact with a variable atmosphere, or risk costly detours. Indeed, birds are frequently selective with the time, direction, and altitude of their movements [**refs**]. The decision to migrate is influenced strongly by wind and weather conditions, as birds select departure times with favorable or even optimal conditions for progress towards their goal [**refs**]. Yet prevailing wind regimes and the time pressure of a relentlessly advancing calendar mean that birds cannot always be selective. As powered fliers, birds have the ability to partially or fully compensate for wind drift incurred during migratory flights, and they show complex interactions with moving atmospheric flows. Frequently, birds adopt a compensatory strategy, and the degree to which migrants fight the wind is influenced by a range of factors, including body size, time pressure, wind conditions, and the potential dangers of being drifted off course---for example, over open ocean [**ref** - NE US paper]. Migrants respond not only to wind but strongly to temperature, precipitation, and atmospheric pressure [**refs**], cues that contain predictive information about the conditions they will experience both *en route* and upon arrival. As weather conditions are often variable, migrants must be flexible enough to respond to changing conditions and adjust their journeys in order to stay on course and minimize delays. 
 
 <!-- Examples?? -->
 
@@ -82,83 +82,71 @@ Migratory birds respond to variation in their environment in a variety of ways. 
 
 ### Adjusting to a variable environment {-}
 
-  + Migration is an adaptation to a seasonal environment [**ref Winger**]
-  + Seasons are generally predictable, as predictable as the number of rotations the earth will complete in 365 days
-  + Yet there is considerable variation from year to year -- and with climate change, we are seeing increased variability as well, e.g. with the time of spring
-  + Birds must exhibit flexibility that allow them to respond 
-  + Phenotypic plasticity well documented in some migratory birds - timing advances with climate change, range shifts 
-  + Short-distance migrants are the most flexible 
+The seasonal return movements that characterize classic migratory behavior are an adaptation to a variable environment, where fluctuations in resource availability are sufficiently severe and sufficiently regular [**ref Winger**]. Indeed, the changing of the seasons is one of few truly predictable phenomena on earth. Yet on top of regular annual cycles, there is considerable variation from year to year in how seasons manifest: in their exact timing, their harshness, and the biotic responses of plant and animal communities. Moreover, recent climatic changes have has brought on increased volatility in seasonal patterns [**ref**] and more frequent extremes.
+
+Migratory birds thrive by using movement to escape harsh environments. For example, some species move extreme distances to experience perpetual summer [**ref**]. In order to track seasonal changes that are themselves variable, migrants must demonstrate sufficient flexibility. Such phenotypic plasticity is well documented in many migratory bird species. Commonly recorded are timing adjustments of migration and breeding to match colder or warmer springs [**refs**] and range shifts in response to variable conditions [**ref Dickcissel**]. In partially migratory populations, some individuals migrate while others stay on the breeding grounds. In most cases, the drivers of these decisions are unclear, but are likely related to a suite of environmental, social, and innate factors [**ref**]. A suite of Australian species take rapid responses to variable conditions to the extreme, reacting to distant precipitation events by engaging in long movements to exploit ephemeral wetlands [**ref**]. A number of patterns emerge from this wide continuum of variation: for example, long-distance migrants, which rely on programmed circannual clocks to time migration, are generally less flexible than short-distance migrants that generally time their movements in response to environmental cues [**refs**]. 
+
+  <!-- + Migration is an adaptation to a variable environment [**ref Winger**] -->
+  <!-- + Seasons are generally predictable, as predictable as the number of rotations the earth will complete in 365 days -->
+  <!-- + Yet there is considerable variation from year to year -- and with climate change, we are seeing increased variability as well, e.g. with the time of spring -->
+  <!-- + Birds must exhibit flexibility that allow them to respond  -->
+  <!-- + Phenotypic plasticity well documented in some migratory birds - timing advances with climate change, range shifts  -->
+  <!--   + Examples: timing of migration, timing of breeding, stopping of migration (storks) -->
+  <!-- + Short-distance migrants are the most flexible  -->
+  <!-- + Long-distance migrants are not that flexible -->
 
 <!-- Longer-term flexibility -- evolutionary change to changing climatic regimes and land use paradigms, ice age, range expansion - recapitulation of migratory routes -->
 
 ### Adapting to long-term change {-}
 
-  + Long term environmental changes like climate change, ice age cycles, new habitat -- cannot rely on plasticity, need evolutionary change
-  + Long distance migrants have rigidly programmed timing programmes, in addition to inherited navigation programs 
-  + Yet it is unclear 
-  
-<!-- Summary and open questions -->
+To cope with long-term environmental changes, such as climate change and habitat transformation, migrants cannot generally rely on phenotypic plasticity. In many bird species, including passerine migrants, the innate circannual clock exerts substantial control over the timing of annual cycle events like moult, migration, and reproduction. In long-distance migrants, endogenous control of these events is particularly strong, and these species often show remarkable consistency in migration timing among years, even in the face of varying conditions. In addition, the juveniles of most migratory species are not accompanied by experienced individuals on their first migration and must rely on some degree of genetic programming to find their way [**ref**]. The suite of endogenous mechanisms that control migration is known as the migratory programme, and adjustment of this innate system requires evolutionary change [**ref**]. It is easy to observe the footprint of evolutionary change on migration today, in routes that recapitulate post-glacial expansions [**ref**], sedentary species with migratory ancestors [**Ref drop-out**], and innate timing and navigation programmes. However, because adjustment of the migratory programme requires hard-coded evolutionary change, it is unclear whether rigidly-timed species will be able to match the current pace of environmental shifts, and whether microevolution is at work in the responses we observe today [**ref**]. 
 
-  + Migrants show immense flexibility, hard to grasp
-  + Where does flexibility come from? How much of response is evolutionary? 
+<!-- The relatively slow speed at which microevolution can act -->
+
+<!--   + Long term environmental changes like climate change, ice age cycles, new habitat -- cannot rely on plasticity, need evolutionary change -->
+<!--   + Long distance migrants have rigidly programmed timing programmes, in addition to inherited navigation programs  -->
+
+<!--     + Evidence for innate control of migration -->
+<!--     + Differs by migratory strategy, distance, species -->
+<!--     + Chronobiology perspectives  -->
+<!--     + Often viewed as the rigid and programmed aspect - instinct driven -->
+<!--     + But evidence that there may actually be more flexibility here than believed  -->
+<!--       + Factors like age (juv vs adult), migration distance/strategy -->
+<!--       + Partial migration - do individuals with different strategies have different programs, or different thresholds, or...? -->
+<!--       + How is the migratory programme inherited?  -->
+<!--     + Migratory programmed believed to be rigid, only possible to respond to evolutionary changes  -->
+<!--       + What potential is there for evolutionary change?  -->
+
+
+<!--   + Yet it is unclear the extent to which evolution is actually occurring -->
+<!--   + We see clear marks of evolution in migration today - routes that are shadows of expansions since last glacial maximum, i.e. that recapitulate historical routes despite being non-optimal; "drop-out" species that have ceased migrating; innate programming of clocks and directions -- all bear the unmistakable mark of evolution -->
+<!--   + But the question today is whether evolutionary processes are occurring fast enough to match the pace of change -->
+<!--     + Examples from studies that seem to show - but hard without experimental approaches -->
 
 <!-- Existing study of flexibility not always easy -- constrained by scope, computation, need for experiments in the lab -->
 
+<!-- + Intro to idea of flexibility, why it is important, consequnces and examples -->
+<!--   + Responses on different timescales and by different mechanisms - plastic/behavioral and evolutionary responses -->
+<!--   + Flexibility allows birds to respond to environmental change -->
+<!--   + Biotic cycles, seasonal variation  -->
+<!--   + Existing study of flexibility not always easy -  -->
+<!--     + constrained by scope, computation, need for experiments in the lab -->
 
-Flexibility makes successful migration possible
-
-For a
-
-is mirrored by large variation in responses to global change.   
-
-
-+ Intro to idea of flexibility, why it is important, consequnces and examples
-  + Responses on different timescales and by different mechanisms - plastic/behavioral and evolutionary responses
-  + Flexibility allows birds to respond to environmental change
-  + Biotic cycles, seasonal variation 
-  + Existing study of flexibility not always easy - 
-    + constrained by scope, computation, need for experiments in the lab
-
-- variation/flexibility in migration - where does it come from?
-  - Variation among or within individuals? 
-  - How much variation? 
-  - What are the consequences of variation and flexibility?
-  - Responses to environmental cues
-
-levels of flexibiliy
-
-### Phenotypic plasticity {-}
-(in flight responses to conditions, adjusting timing)
-
-### Evolutionary responses {-}
-(via change in migratory programme)
-
-#### The innate migratory programme of individuals {-}
-
-+ Evidence for innate control of migration
-+ Differs by migratory strategy, distance, species
-+ Chronobiology perspectives 
-+ Often viewed as the rigid and programmed aspect - instinct driven
-+ But evidence that there may actually be more flexibility here than believed 
-  + Factors like age (juv vs adult), migration distance/strategy
-  + Partial migration - do individuals with different strategies have different programs, or different thresholds, or...?
-  + How is the migratory programme inherited? 
-+ Migratory programmed believed to be rigid, only possible to respond to evolutionary changes 
-  + What potential is there for evolutionary change? 
- 
-+ Studying the migratory program
-  + Lab/field based assays of restlessness behavior
-  + Big question: how does the migratory programme relate to actual migration in the wild? Methods may not be perfect - Zug != migration in the wild. 
-  + Approaches that explore interspecies/population differences in restlessness and integrates these captive assays to behavior in the wild are particularly valuable for understanding their use in the future
+<!-- - variation/flexibility in migration - where does it come from? -->
+<!--   - Variation among or within individuals?  -->
+<!--   - How much variation?  -->
+<!--   - What are the consequences of variation and flexibility? -->
+<!--   - Responses to environmental cues -->
 
 
+<!-- ### Phenotypic plasticity {-} -->
+<!-- (in flight responses to conditions, adjusting timing) -->
+
+<!-- ### Evolutionary responses {-} -->
+<!-- (via change in migratory programme) -->
 
 
-
-
-
-The diversity in migratory strategies is mirrored in the ease with which individual can adapt to change
-
+<!-- The diversity in migratory strategies is mirrored in the ease with which individual can adapt to change -->
 
 <!-- but they are particularly susceptible to environmental change because successful migration requires the integration of a number of disparate components, each one sensitive to ongoing changes that may be poorly correlated. Migrants must time their journeys precisely, navigate accurately through a dynamic atmosphere, locate resources safely, reliably and efficiently, and thrive in ecological contexts that differ across seasons and hemispheres. As climate change shifts optimal timing windows, wind regimes, storm patterns, and as humans modify both the landscapes through which birds pass and the areas where they breed and winter, a migratory strategy may become increasingly untenable [@wilcoveGoingGoingGone2008;@rungeProtectedAreasGlobal2015]. Migrant birds are in decline in multiple regions, in part because many lack the flexibility to rapidly respond and adapt to these large scale environmental changes [@beresfordPhenologyClimateChange;@bothAvianPopulationConsequences2009;@fraserIndividualVariabilityMigration2019; @sandersonLongtermPopulationDeclines2006].  -->
 
@@ -167,21 +155,45 @@ The diversity in migratory strategies is mirrored in the ease with which individ
 
 ## Migration across scales {-}
 
-+ the importance of integrating perspectives across scales *in science in general*
-+ Migration is a complex and interconnected system, and a successful migration requires the integration of numerous components - including habitats across the world, at different times, different places and ecosystems. We need to think about migration *globally.* But not only that - we need to think about migration from the individual to the system level - need a range of perspectives
-  + Migratory birds are *individuals* that make decisions, integrating internal programming, internal need, external environmental/social stimuli -- to understand migration and flexibility, responses to climate change, and overall how things work, need to understand how individuals operate. To understand how entire species, and indeed entire migration systems, operate and their capacity for rapid change, need to understand the mechanisms that govern *individual* flexibility 
-  + At the same time, we must adopt a *wider perspective* to address some of the most pressing scientific questions of today, including about the conservation status of species, whether they are keeping pace with a range of environmental changes, 
-    + e.g. how migration networks behave in the face of habitat loss
-    + where are conservation bottlenecks
-    + must integrate mortality and understand survival
-    + cite radar/Adriaan/etc
-    + Other things more directly relevant to my work
-  + This requires understanding the behaviour of populations, species, and even the *system* level. Migratory birds form a system of large scale biomass flux and nutrient transport, with consequences for ecosystem services, nutrient cycling, pathogen and parasite transport (e.g. ticks, disease), biotic interactions (pollination). Plus, migratory birds are interconnected. Species move together, communicate in migration, forage in mixed species flocks, and we have little understanding of these links. Migratory birds form part of a global system. To only study migration from an individual perspective would be to miss these important components of avian biology.
-  
-+ Multiple perspectives not only important in scale, but also in approach and angle - 
-  + chronobiology, ecology, evolution, behavior, observation, etc.
+Understanding multifaceted natural processes is best approached from multiple perspectives, and avian migration is no exception. Migratory birds form an interconnected network with multiple layers of complexity. The migratory phenotype of an individual is influenced by a range of internal and external factors, from genes and developmental processes to social and atmospheric environments. At the same time, a population of migratory birds might occupy habitats across the world at different times of year, requiring a global perspective, and hundreds of species interact to form hemispheric migration systems. Understanding bird migration requires that we think across scales, from individuals to systems. 
 
-### Migration systems and taxonomic scope (?) {-}
+The individual is the most basic unit of a migratory system. It is important to recognize that each individual will possess an underlying migratory programme, dictated by a suite of factors. Most obvious is its species identity, because individuals of a species share a common genetic architecture. Many species show strong connectivity by breeding population, in which individuals in a population are share a common wintering area [**ref**]. Individuals are also influenced by their immediate social and kin relations [**ref**], as well as individual experience, health, and demographics (e.g. age, sex, and social hierarchy) [**ref**]. Finally, each individual experiences a unique combination of environmental conditions, dictated by location, behavior, and physical traits. All of these factors are brought to bear on the migratory phenotype of an individual bird. An individual perspective is therefore essential to understanding the drivers of variation in migratory behaviour. 
+
+At the same time, an individual-based perspective is insufficient to address the most pressing scientific questions of today, which require a wider view on natural systems. Widespread and ongoing population declines among migrants [**ref 3 billion**] require species-level perspectives to understand and address. In addition to direct conservation, simply understanding how populations are actively interacting with human society and responding to global change will require studies with global scope, as environments and the changes they are experiencing are resoundingly heterogeneous [**ref heterogeneous climate change**]. A wider view on bird migration is necessary to capture continental movement patterns, study how migration networks behave in the face of habitat loss, identify conservation bottlenecks, and understand species-level demographics [**ref Adriaan**]. 
+
+Therefore, a modern understanding of bird migration requires integrating the behaviour of individuals, populations, species, and even entire hemispheric migration systems. Migratory systems facilitate large scale fluxes of biomass and transport of nutrients, with consequences for ecosystem services, nutrient cycling, pathogen and parasite transport, and biotic interactions from competition to pollination. In addition, migratory bird species are vastly interconnected. During migration, migrants form mixed species groups during active flight [**ref**] and during foraging and stopover periods [**ref**]. Many species give vocalizations in both contexts [**ref**], but the extent of their function is poorly known. What is clear is that migratory bird species form an interconnected, global system, requiring study across scales. To only study migration from one point of view would be to miss important components of avian biology. 
+
+Multiple perspectives are important not only in scale, but also in approach. Avian migration should not be thought of from exclusively ecological, behavioural, or evolutionary points of view. In this thesis, I attempt to improve our understanding of the flexibility of avian migration across spatial scales, taxonomic groups, and disciplines.  
+
+<!-- + Multiple perspectives not only important in scale, but also in approach and angle -  -->
+<!--   + chronobiology, ecology, evolution, behavior, observation, etc. -->
+
+
+<!-- from the level of individuals to the level of populations and species, and  levels,  -->
+
+<!-- + the importance of integrating perspectives across scales *in science in general* -->
+<!-- + Migration is a complex and interconnected system, and a successful migration requires the integration of numerous components - including habitats across the world, at different times, different places and ecosystems. We need to think about migration *globally.* But not only that - we need to think about migration from the individual to the system level - need a range of perspectives -->
+<!--   + Migratory birds are *individuals* that make decisions, integrating internal programming, internal need, external environmental/social stimuli -- to understand migration and flexibility, responses to climate change, and overall how things work, need to understand how individuals operate. To understand how entire species, and indeed entire migration systems, operate and their capacity for rapid change, need to understand the mechanisms that govern *individual* flexibility  -->
+<!--   + At the same time, we must adopt a *wider perspective* to address some of the most pressing scientific questions of today, including about the conservation status of species, whether they are keeping pace with a range of environmental changes,  -->
+<!--     + e.g. how migration networks behave in the face of habitat loss -->
+<!--     + where are conservation bottlenecks -->
+<!--     + must integrate mortality and understand survival -->
+<!--     + cite radar/Adriaan/etc -->
+<!--     + Other things more directly relevant to my work -->
+<!--   + This requires understanding the behaviour of populations, species, and even the *system* level. Migratory birds form a system of large scale biomass flux and nutrient transport, with consequences for ecosystem services, nutrient cycling, pathogen and parasite transport (e.g. ticks, disease), biotic interactions (pollination). Plus, migratory birds are interconnected. Species move together, communicate in migration, forage in mixed species flocks, and we have little understanding of these links. Migratory birds form part of a global system. To only study migration from an individual perspective would be to miss these important components of avian biology. -->
+
+
+<!-- ## Open questions (?) {-} -->
+
+<!-- <!-- Summary and open questions --> -->
+
+<!--   + Migrants show immense flexibility, hard to grasp it all -->
+<!--   + Where does flexibility come from? How much of response is evolutionary?  -->
+<!--   + How do individual insights scale up to species/system level? -->
+
+## Aims of thesis {-}
+
+### Geographic, and taxonomic scope {-}
 (across hemispheres)
   - European migratory passerines
     - Stonechats
@@ -189,16 +201,18 @@ The diversity in migratory strategies is mirrored in the ease with which individ
     - Blackcaps
   - US migration system
   
-## Approaches/methods to studying migration {-}
+### Approaches/methods to studying migration {-}
   - Lab/captive assays
   - Tracking (geolocator, gps) - only geo available for small songbirds
   - Large datasets - citizen science, remote sensing
   - Direct field observation
 
+  + Studying the migratory program
+    + Lab/field based assays of restlessness behavior
+    + Big question: how does the migratory programme relate to actual migration in the wild? Methods may not be perfect - Zug != migration in the wild. 
+    + Approaches that explore interspecies/population differences in restlessness and integrates these captive assays to behavior in the wild are particularly valuable for understanding their use in the future
 
-## Open questions (?) {-}
-
-## Thesis outline {-}
+### Thesis outline 
 
 + In this thesis, examine different axes of flexibility in migration, addressing (1) the internal migratory programme of individuals and the potential for evolutionary change, (2) large-scale approaches to understanding evolution and flexibility of migration that bring together lots of data to better understand underlying processes, (3) focus on human activity - how does this affect birds' responses both in the short term (in flight) and in the long term (evolutionary adjustment)
 + What is known about these axes, and what remains unclear? 
