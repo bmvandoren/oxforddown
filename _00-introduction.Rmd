@@ -191,11 +191,7 @@ Multiple perspectives are important not only in scale, but also in approach. Avi
 <!--   + Where does flexibility come from? How much of response is evolutionary?  -->
 <!--   + How do individual insights scale up to species/system level? -->
 
-## Aims of thesis {-}
-  
-The aim of this thesis is to investigate the drivers of change and flexibility in avian migration across scales, from the individual bird to the hemispheric migration system. I focus on three themes, each comprising two chapters: (1) the innate migratory programme, (2) continental perspectives on migration, (3) and migration in the human-driven Anthropocene. 
-
-### Approaches to studying migration {-}
+## Approaches to studying migration {-}
 
 The methods used to study migration are nearly as diverse as the phenomenon itself. Ringing is one of the oldest means of tracking individual birds [**ref Audubon?**]; in the last **__** years, **__** birds have been ringed in the United Kingdom alone, and these marked birds have been recaptured **__** times. Around the world, ringing has led to invaluable insight into the movements, longevity, and ecology of thousands of bird species. In addition, colorful rings designed to be read in the field by observers---not only on a bird in the hand---allow marked individuals to be monitored in the field without disturbance, making possible detailed observations of individual behaviour. 
 
@@ -217,31 +213,35 @@ In this thesis, I combine this suite of approaches to study avian migration. I u
   <!--   + Big question: how does the migratory programme relate to actual migration in the wild? Methods may not be perfect - Zug != migration in the wild.  -->
   <!--   + Approaches that explore interspecies/population differences in restlessness and integrates these captive assays to behavior in the wild are particularly valuable for understanding their use in the future -->
 
-### Geographic and taxonomic scope {-}
+## Geographic and taxonomic scope {-}
 
-Like so many migratory birds, this thesis connects disparate regions of the world and crosses taxonomic boundaries. 
+Like so many migratory birds, this thesis connects disparate regions of the world. I focus on representatives of two hemispheric migration systems, the Palearctic-Afrotropical and Nearctic-Neotropical migration systems. From the Palearctic-Afrotropical migration system, I study three migratory passerine songbirds: stonechats (family Muscicapidae, genus *Saxicola*), pied flycatchers (family Muscicapidae, *Ficedula hypoleuca*), and Eurasian blackcaps (family Sylviidae, *Sylvia atricapilla*). Stonechats and blackcaps show large variation in migratory strategies across populations and subtaxa, making them useful study systems for understanding migratory flexiblity. Pied flycatchers are obligate long-distance migrants, and are therefore ideal for studying migratory evolution in a rigidly timed species. My studies of the Nearctic-Neotropical migration system focus on understanding the ecology of entire migration assemblages and are not taxon-specific. 
 
-(across hemispheres)
-  - European migratory passerines
-    - Stonechats
-    - Flycatchers
-    - Blackcaps
-  - US migration system
+## Thesis outline {-}
 
-### Thesis outline 
+The aim of this thesis is to investigate the drivers of change and flexibility in avian migration across scales, from the individual bird to the hemispheric migration system. I focus on three themes, each comprising two chapters: (1) the innate migratory programme and its potential for evolutionary change, (2) continent-scale perspectives on processes driving flexibility and evolution in migration systems, and (3) the impact of human activity on migratory birds' behaviour both in flight and across generational timescales. 
 
-+ In this thesis, examine different axes of flexibility in migration, addressing (1) the internal migratory programme of individuals and the potential for evolutionary change, (2) large-scale approaches to understanding evolution and flexibility of migration that bring together lots of data to better understand underlying processes, (3) focus on human activity - how does this affect birds' responses both in the short term (in flight) and in the long term (evolutionary adjustment)
-+ What is known about these axes, and what remains unclear? 
-  
-**Chapter \@ref(stonechats)**
-**Chapter \@ref(flycatchers)**
-**Chapter \@ref(blackcap-geo)**
-**Chapter \@ref(forecast)**
-**Chapter \@ref(lights)**
-**Chapter \@ref(blackcap-uk)**
+All characteristics of species and systems are emergent properties of their constituent individuals. For migratory birds, studying the drivers of behaviour at the individual level is important to understanding the flexibility of entire species and assemblages. Therefore, in **Chapter \@ref(stonechats)**, I investigate individual variation in the innate migratory programme in closely related stonechat taxa that show divergent migratory strategies. I use data from laboratory studies of individuals raised in a common garden setting and develop an objective analysis approach based on changepoint analysis for quantifying restlessness data. I compare results from lab-based assays to migration behaviour in the wild, including study of a population with a partially migratory phenotype in the wild. I also examine flexibility and evolutionary potential in this phenotype by investigating how restlessness behaviour varies across age and sex classes and comparing phenotypes of hybrid individuals with those of their parents. 
 
-+ Flexibility of migration is a key component of ability to respond to change
+<!-- I show that migration distance in the wild is closely associated with the intensity of nocturnal migratory restlessness measured in the lab, and that hybrid individuals possess intermediate timing and intensity phenotypes relative to parental populations. These results support a strong genetic basis for migratory behaviour in stonechats. However, I also found that Irish stonechats, which comprise both migratory and non-migratory individuals in the wild, display unexpectedly high levels of nocturnal migratory activity, indistinguishable from those of long-distance migrants from Siberia. This surprising result suggests that these partial migrants do not possess a genetic switch for migration and that environmental factors can strongly influence their migration phenotype in the wild.  -->
 
+
+<!-- Understanding the influence of environmental conditions on bird migration is crucial given recent evidence for climate-linked changes in migratory behavior.  -->
+
+A large component of songbirds' migratory behaviour is under genetic control, especially for obligate long-distance migrants with rigid timing programmes [**ref**]. Although these species have shown evidence of recent climate-linked changes in migration, the role of microevolution in these adjustments is poorly understood. In most instances, climate-related shifts can be explained by phenotypic plasticity alone [**ref**]. Knowing whether microevolution also plays a role is vital to the conservation of long-distance migrants, whose adaptation to climate change may be constrained by rigid timing programs. The pied flycatcher is a well-studied example of a long-distance migrant responding to climate change, yet the answer to this question is unknown in this species [**ref**]. In **Chapter \@ref(flycatchers)**, I use data from a common garden study replicated in 1981 and 2002 to test whether pied flycatchers have evolved changes in their timing program. I then compare the results in laboratory-tested birds to advances documented in a local wild breeding population, with the goal of understanding whether the internal clock of this long-distance migrant may be more flexible than previously believed. 
+
+Although studies in the laboratory are unique in their ability to control for environmental variation, it is equally important to understand variation in migratory behavior in wild populations. In **Chapter \@ref(blackcap-geo)**, I retain a focus on individual migratory behaviour but shift to a wild context. I use the blackcap, a species with a long history of migration study and broad variation in migratory phenotype across its range [**refs**]. I use light-level geolocators to examine migratory behavior across the European continent, focusing on two salient features of blackcap migration. The first is a migratory divide present in central Europe, a zone of contact between populations with opposing autumn migratory directions. I investigate patterns of migratory behavior at the divide to understand how migratory direction varies across this contact zone and how natural selection may be operating on different phenotypes. The second salient feature of blackcap migration is the recent emergence of a new wintering population in Britain, a potential consequence of human activity [**ref**]. I use geolocators to identify the source areas of these British winterers, compare these novel migrations to those of birds wintering in traditional Mediterranean areas, and examine the potential for reproductive isolation based on the timing of migration. 
+
+Chapter \@ref(blackcap-geo) illustrates how studies across large spatial scales can reveal important insight into the processes governing transgenerational migratory evolution in a bird species. Yet the entire avian assemblages that traverse continents must also respond rapidly to changeable conditions *en route*. In **Chapter \@ref(forecast)**, I focus on capturing how an entire migration system  comprising billions of individuals actively responds to environmental conditions. Using a 23-year dataset derived from Doppler weather surveillance radars, I train a machine learning model to learn associations between migration and weather conditions across the contiguous United States. I examine the accuracy with which this model can forecast migratory movements days in advance, and I interpret learned associations to reveal the factors birds respond to most readily during spring migration. I also discuss the potential conservation and outreach applications of migration forecasting.
+
+As nocturnally migrating birds traverse the landscape, they are increasingly exposed to a stimulus virtually unknown in their evolutionary histories: artificial light. Inputs of artificial light affect birds of a range of taxa [**ref**]. For passerine migrants, this new stimulus may dramatically affect their ability to interact normally with their environment, causing many to approach and potentially collide with man-made structures. In addition, light pollution may influence how migratory birds interact with the landscape across broad scales [**ref**]. In **Chapter \@ref(lights)**, I investigate how a single, extremely bright light source in an urban area can drastically alter birds' migratory behaviour, and I give recommendations for ameliorating these negative effects. 
+
+As Chapter \@ref(lights) demonstrates, the influence of the Anthropocene on migratory birds can be profound. Not only does human activity affect migratory birds during active migration, but it can shape the ecology of entire populations---provided they are able to take advantage of new resources and opportunities. The blackcap is one of few migratory species flexible enough to thrive in this changing world, and the recently established population of blackcaps wintering in the British Isles well illustrates the species' ability to rapidly respond to newly suitable conditions. In **Chapter \@ref(blackcap-uk)**, I discuss the broad footprint of human activity on the wintering ecology of blackcap in the British Isles. I investigate the associations between blackcaps and humans on a landscape scale, and I analyze a large dataset of observations from British gardens to study how these warblers interact with supplementary food provided by people.
+
+
+Finally, in the **General Discussion**, I synthesize the work discussed in Chapters \@ref(stonechats)--\@ref(blackcap-uk) and discuss future promising avenues for study. 
+
+<!-- + Flexibility of migration is a key component of ability to respond to change -->
 
 <!-- ## What is migration? -->
 <!-- ## Migration in a changing world - threats, responses -->
@@ -251,15 +251,15 @@ Like so many migratory birds, this thesis connects disparate regions of the worl
 <!-- ## Open questions -->
 <!-- ## Thesis outline -->
 
-Themes of thesis
-- Internal migratory program - wild vs. captive
-- Rigid vs. flexible migration strategies 
+<!-- Themes of thesis -->
+<!-- - Internal migratory program - wild vs. captive -->
+<!-- - Rigid vs. flexible migration strategies  -->
 
 
-- Take advantage of predictable timing programs and responses to the environment to predict migration 
-- Migratory behavior is changing due to human influences
-  - short-term stimulus light - effects on flight behavior
-  - longer term (?) climate change / food availability - effects on ecology, behavior, distribution 
+<!-- - Take advantage of predictable timing programs and responses to the environment to predict migration  -->
+<!-- - Migratory behavior is changing due to human influences -->
+<!--   - short-term stimulus light - effects on flight behavior -->
+<!--   - longer term (?) climate change / food availability - effects on ecology, behavior, distribution  -->
 
 
 
