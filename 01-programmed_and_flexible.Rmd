@@ -8,7 +8,7 @@ documentclass: book
 bibliography: references.bib
 ---
 
-\part{The migratory programme}
+\part{The innate migratory program}
 
 ```{block type='savequote', include=knitr::is_latex_output()}
 **Van Doren, B.M.**, Liedvogel, M., and Helm, B. (2017). Programmed and flexible: long-term Zugunruhe data highlight the many axes of variation in avian migratory behaviour.  
@@ -25,7 +25,7 @@ iii) You can't use markdown syntax inside chunk options, so if you want to e.g. 
 <!-- # Migratory behaviour of stonechats in a common garden {#stonechats} -->
 
 \hypertarget{stonechats}{
-\chapter[Migratory behaviour of stonechats in a common garden]{Migratory behaviour of stonechats\\in a common garden}\label{stonechats}}
+\chapter[Migratory behavior of stonechats in a common garden]{Migratory behavior of stonechats\\in a common garden}\label{stonechats}}
 
 <!-- # Programmed and flexible: long-term *Zugunruhe* data highlight the many axes of variation in avian migratory behaviour {#programmed-and-flexible} -->
 <!-- \chaptermark{Axes of variation in migratory restlessness} -->
