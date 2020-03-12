@@ -283,6 +283,24 @@
 {\end{alwayssingle}}
 
 
+% AUTHOR CONTRIBUTIONS
+%
+% The author contributions environment puts a large, bold, centered 
+% "Author Contributions" label at the top of the page. The acknowledgements
+% themselves appear in a quote environment, i.e. tabbed in at both sides, and
+% on its own page.
+
+\newenvironment{contributions}%
+{   \begin{alwayssingle}\chapter*{Author Contributions}
+    \thispagestyle{empty}
+	\pagestyle{empty}
+	\setlength{\baselineskip}{\frontmatterbaselineskip}
+	% \noindent
+	\parindent0pt
+}
+{\end{alwayssingle}}
+
+
 %ABSTRACT
 %
 %The abstract environment puts a large, bold, centered "Abstract" label at
