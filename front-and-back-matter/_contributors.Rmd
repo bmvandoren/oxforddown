@@ -1,0 +1,17 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
+### *Main contributors*
+
+**Benjamin M. Van Doren** blah blah blah
+
+**Miriam Liedvogel** blah blah blah
+
+**Ben Sheldon** blah blah blah
+
+### *Additional contributors*
+
+**Robbie Phillips** blah blah blah
