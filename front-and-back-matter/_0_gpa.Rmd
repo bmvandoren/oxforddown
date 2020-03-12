@@ -82,8 +82,9 @@ the breathtakingly beautiful stars of his sky.  \\\\
 
 \end{tabular}
 
-\vspace{12pt}
---- Many From \textit{Birder}, by John Van Doren (1928--2019), \\
-who marveled at the natural world.
+\vspace{200pt}
+
+From \textit{Birder}, by John Van Doren (1928--2019), \\
+who loved hemlock trees and waterfalls.
 
 \end{center}
