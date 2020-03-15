@@ -1,17 +1,29 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 
-### *Main contributors*
 
-**Benjamin M. Van Doren** blah blah blah
+**Benjamin M. Van Doren** had independent intellectual input into all aspects of the thesis. He conducted and oversaw blackcap fieldwork in the UK over four winters, analyzed data for all studies, drafted chapters, and incorporated co-author comments to produce final manuscripts.
 
-**Miriam Liedvogel** blah blah blah
+\vspace{12pt}
 
-**Ben Sheldon** blah blah blah
+**Ben C. Sheldon** (supervisor, co-author of chapter \@ref(blackcap-uk)) secured funding and provided intellectual input, guidance, and feedback throughout. 
+
+**Sonya M. Clegg** (supervisor) provided intellectual input, guidance, and feedback throughout. 
+
+**Miriam Liedvogel** (co-author of chapters \@ref(stonechats), \@ref(blackcap-geo) and \@ref(blackcap-uk)) secured funding and provided intellectual input, guidance, and written contributions for all co-authored chapters.
+
+**Barbara Helm** (co-author of chapters \@ref(stonechats) and \@ref(flycatchers)) provided intellectual input, guidance, and written contributions for all co-authored chapters.
 
 ### *Additional contributors*
 
-**Robbie Phillips** blah blah blah
+**Greg J. Conway** (co-author of chapters \@ref(blackcap-geo) and \@ref(blackcap-uk)) secured funding and helped organize blackcap fieldwork. Provided guidance and intellectual input for co-authored chapters.
+
+**Kira Delmore** (co-author of chapter \@ref(blackcap-geo)) coordinated and conducted blackcap fieldwork in continental Europe. Contributed data, analysis, and writing to chapter \@ref(blackcap-geo).
+
+**Andrew Farnsworth** (co-author of chapter \@ref(lights)) provided guidance and intellectual input. Contributed oversight and writing to chapter \@ref(lights).
+
+**Kyle G. Horton** (co-author of chapter \@ref(forecast) and \@ref(lights)) provided intellectual input, writing, and data analysis for co-authored chapters.
+
+**Robbie J. Phillips** (co-author of chapter \@ref(forecast) and \@ref(lights)) assisted with UK fieldwork and provided provided intellectual input and feedback for co-authored chapters.
+
+\vspace{12pt}
+
+Further author contributions information accompanies each chapter. 

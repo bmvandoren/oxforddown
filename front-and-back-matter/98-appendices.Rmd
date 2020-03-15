@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 `r if(knitr:::is_latex_output()) '\\startappendices'`
 
 `r if(!knitr:::is_latex_output()) '# (APPENDIX) Appendix {-}'` 
@@ -5,20 +10,83 @@
 <!-- If you feel it necessary to include an appendix, it goes here. The first appendix should include the commands above. -->
 
 
-# The First Appendix
 
-This first appendix includes an R chunk that was hidden in the document (using `echo = FALSE`) to help with readibility:
-
-**In 02-rmd-basics-code.Rmd**
-
-```{r ref.label='chunk-parts', eval=FALSE, echo = TRUE}
+```{block type='savequote', include=knitr::is_latex_output()}
+Horton, K.G., **Van Doren, B.M.**, La Sorte, F.A., Cohen, E.B., Clipp, H., Buler, J.J., Fink, D., Kelly, J.F., and Farnsworth, A. (2019). Holding steady: Little change in intensity or timing of bird migration over the Gulf of Mexico. *Global Change Biology*. 25, 1106-1118. 
 ```
 
-**And here's another one from the same chapter, i.e. Chapter \@ref(code):**
+\hypertarget{app-gulf}{
+\chapter[Timing and intensity of bird migration over the Gulf of Mexico]{Little change in intensity or timing of bird migration over the Gulf of Mexico}\label{app-gulf}}
 
-```{r ref.label='oxford-logo-rotated', eval=FALSE, echo = TRUE}
+```{r, include=T, results='asis', eval=knitr::is_latex_output(),echo=F,message=F}
+cat('\\newpage')
+```
+
+
+```{r app-gulf, include=T, echo=F, results='asis'}
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/app-gulf"),
+                    pattern="app-gulf_Part",full.names = T)
+
+
+cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=1.15\\linewidth]{", pages, "}} \\end{center} \\newpage \n"))
+
 ```
 
 
 
-# The Second Appendix, for Fun
+
+
+```{block type='savequote', include=knitr::is_latex_output()}
+Horton, K.G., **Van Doren, B.M.**, La Sorte, F.A., Fink, D., Sheldon, D., Farnsworth, A., and Kelly, J. (2018). Navigating north: how body mass and winds shape avian flight behaviors across a North American migratory flyway. *Ecology Letters*. 21, 1055-1064.
+```
+
+\hypertarget{app-plains}{
+\chapter[Avian flight behaviors across a North American flyway]{Navigating north: how body mass and winds shape avian flight behaviors across a North American migratory flyway}\label{app-plains}}
+
+
+```{r, include=T, results='asis', eval=knitr::is_latex_output(),echo=F,message=F}
+cat('\\newpage')
+```
+
+
+```{r app-plains, include=T, echo=F, results='asis'}
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/app-plains"),
+                    pattern="app-plains_Part",full.names = T)
+
+
+cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=1.2\\linewidth]{", pages, "}} \\end{center} \\newpage \n"))
+
+```
+
+
+
+
+
+
+
+
+```{block type='savequote', include=knitr::is_latex_output()}
+Horton, K.G., Nilsson, C., **Van Doren, B.M.**, La Sorte, F.A., Dokter, A.M., and Farnsworth, A. (2019). Bright lights in the big cities: migratory birds’ exposure to artificial light at night. *Frontiers in Ecology and the Environment* 17, 209-214.
+```
+
+\hypertarget{app-city-lights}{
+\chapter[Migratory birds’ exposure to artificial light at night]{Bright lights in the big cities: migratory birds’ exposure to artificial light at night}\label{app-city-lights}}
+
+
+```{r, include=T, results='asis', eval=knitr::is_latex_output(),echo=F,message=F}
+cat('\\newpage')
+```
+
+
+```{r app-city-lights, include=T, echo=F, results='asis'}
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/app-city-lights"),
+                    pattern="app-city-lights_Part",full.names = T)
+
+
+cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=1.2\\linewidth]{", pages, "}} \\end{center} \\newpage \n"))
+
+```
+
+
+
+
