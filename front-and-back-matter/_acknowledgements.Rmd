@@ -1,13 +1,25 @@
-This is where you will normally thank your advisor, colleagues, family and friends, as well as funding and institutional support. In our case, we will give our praises to the people who developed the ideas and tools that allow us to push open science a little step forward by writing plain-text, transparent, and reproducible theses in R Markdown. 
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 
-We must be grateful to John Gruber for inventing the original version of Markdown, to John MacFarlane for creating Pandoc (<http://pandoc.org>) which converts Markdown to a large number of output formats, and to Yihui Xie for creating `knitr` which introduced R Markdown as a way of embedding code in Markdown documents, and `bookdown` which added tools for technical and longer-form writing.
 
-Special thanks to [Chester Ismay](http://chester.rbind.io), who created the `thesisdown` package that helped many a PhD student write their theses in R Markdown. And a very special tahnks to John McManigle, whose adaption of Sam Evans' adaptation of Keith Gillow's original maths template for writing an Oxford University DPhil thesis in \LaTeX\ provided the template that I adapted for R Markdown.
+<!-- I am immensely grateful to my colleagues, mentors, friends, and family for their inspiration, guidance, and support during the .  -->
 
-Finally, profuse thanks to JJ Allaire, the founder and CEO of [RStudio](http://rstudio.com), and Hadley Wickham, the mastermind of the tidyverse without whom we'd all just given up and done data science in Python instead. Thanks for making data science easier, more accessible, and more fun for us all.
+I am incredibly fortunate to have had many wonderful mentors during my DPhil. To my Oxford supervisors, Ben Sheldon and Sonya Clegg, thank you for your steadfast guidance, for the freedom you have given me to pursue my ideas and goals, and for always trusting in my ability to accomplish more than I thought possible.
 
-\begin{flushright}
-Ulrik Lyngs \\
-Linacre College, Oxford \\
-2 December 2018
-\end{flushright}
+To my "adjunct supervisor," Miriam Liedvogel, I am humbled by your unwavering support. Your boundless generosity, enthusiasm for science, and care for your students never ceases to amaze me.
+
+To Barbara Helm, I am deeply grateful for your guidance and friendship. You have taught me so much about what it means to be a better scientist, collaborator, and person. I will cherish our talks about science and life in between tours of Scottish highlands and Dutch lowlands.
+
+To Andrew Farnsworth, who opened my eyes to the wonders of bird migration over ten years ago, thank you for your endless support, knowledge, generosity, and enthusiasm. I can always count on our conversations to remind me why migration is so amazing and motivate me to seek insights and answers. More soon, I am sure!
+
+I have been privileged to work with and learn from many colleagues and collaborators. Thank you to Kyle Horton, Kristen Ruegg, Wesley Hochachka, Dan Sheldon, and many others.
+
+Fieldwork is filled with many challenges, expected and unexpected. I am indebted to a number of people who helped make my blackcap-catching exploits a success. Thank you, Greg, for your insights, guidance, and logistical support. To Keith, thank you for teaching me how to ring (not band!) a bird, for your exemplary kindness, generosity and humor, and for the many chocolate digestives that got me through cold mornings. To Robbie, thank you for sharing your knowledge, skills, and time, and for your enthusiasm, determination and keen intuition in the field. You have been instrumental in making fieldwork as successful as it was. I am grateful to the dozens of ringers who participated in fieldwork, and to the blackcap hosts who opened their homes and gardens to the project and kept an eye out for marked birds. There are too many to name here, but I am especially indebted to Glynne, Graham, Stuart, Dee and Jonnie. I received the generous support of many others along the way---special thanks to Malcolm Burgess, Kira Delmore, and Nicole Milligan.
+
+My years in Oxford have been some of the best of my life, thanks to the many cherished friends I have made here, especially in the Marshall, Somerville, and Zoology communities.
+To Julius, Noam, and Taylor, thank you for making Oxford feel so much like home. 
+
+To my wonderful family, thank you for supporting and nourishing my interest in birds and science. To my brother, Ross, whom I once tortured with an ill-advised "bird school" and who sat through many avian detours on family trips, thank you for your understanding---and for still being interested in my career. To my grandparents, Mira and John, thank you for your encouragement, excitement, and a lifetime's worth of bird books. Finally, thank you to my parents, Susan and Daniel, who documented my first sentence ("Hello duck!"), bought six-year-old me a field guide to birds, and made possible countless early morning (and late morning, afternoon, and nighttime) excursions as I followed my passion for birds and nature. 

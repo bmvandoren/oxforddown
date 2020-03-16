@@ -1,12 +1,12 @@
 
 
-**Benjamin M. Van Doren** had independent intellectual input into all aspects of the thesis. He conducted and oversaw blackcap fieldwork in the UK over four winters, analyzed data for all studies, drafted chapters, and incorporated co-author comments to produce final manuscripts.
+**Benjamin Van Doren** had independent intellectual input into all aspects of the thesis. He conducted and oversaw blackcap fieldwork in the UK over four winters, analyzed data for all studies, drafted chapters, and incorporated co-author comments to produce final manuscripts.
 
 \vspace{12pt}
 
 **Ben C. Sheldon** (supervisor, co-author of chapter \@ref(blackcap-uk)) secured funding and provided intellectual input, guidance, and feedback throughout. 
 
-**Sonya M. Clegg** (supervisor) provided intellectual input, guidance, and feedback throughout. 
+**Sonya M. Clegg** (supervisor) provided intellectual input, guidance, and feedback. 
 
 **Miriam Liedvogel** (co-author of chapters \@ref(stonechats), \@ref(blackcap-geo) and \@ref(blackcap-uk)) secured funding and provided intellectual input, guidance, and written contributions for all co-authored chapters.
 
