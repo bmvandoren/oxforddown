@@ -91,20 +91,86 @@ $endif$
 % \usepackage[style=authoryear, sorting=nyt, backend=biber, maxcitenames=2, useprefix, doi=false, isbn=false]{biblatex}
 % \newcommand*{\bibtitle}{Works Cited}
 
-% %UL 3 Dec 2018: set this from YAML in index.Rmd
-% $if(bib-humanities)$
+%UL 3 Dec 2018: set this from YAML in index.Rmd
+$if(bib-humanities)$
 % \usepackage[style=authoryear, sorting=nyt, backend=biber, maxcitenames=2, mincitenames=1, useprefix, doi=false, isbn=false, url=false, eprint=false, dashed=false, uniquename=false]{biblatex}
-% \newcommand*{\bibtitle}{$bibliography-heading-in-pdf$}
-% $else$
-% \usepackage[style=numeric-comp, sorting=none, backend=biber, doi=$if(doi-in-bibliography)$$doi-in-bibliography$$else$false$endif$, isbn=false]{biblatex}
-% \newcommand*{\bibtitle}{$bibliography-heading-in-pdf$}
-% $endif$
-% 
-% % This makes the bibliography left-aligned (not 'justified') and slightly smaller font.
-% \renewcommand*{\bibfont}{\raggedright\small}
-% 
-% % Change this to the name of your .bib file (usually exported from a citation manager like Zotero or EndNote).
-% \addbibresource{$bibliography$}
+\usepackage[backend=biber,
+    bibencoding=utf8,
+    refsection=chapter,
+    style=authoryear, 
+    firstinits=true,
+    isbn=false,
+    doi=false,
+    url=false,
+    eprint=false,
+    related=false,
+    dashed=false,
+    clearlang=true,
+    maxcitenames=2,
+    mincitenames=1,
+    maxbibnames=10,
+    abbreviate=true,
+    minbibnames=3,
+    date=year
+]{biblatex}
+\AtEveryBibitem{%
+  \clearlist{language}%
+  \clearfield{note}
+}
+
+\DeclareFieldFormat{titlecase}{\MakeTitleCase{#1}}
+
+\newrobustcmd{\MakeTitleCase}[1]{%
+  \ifthenelse{\ifcurrentfield{booktitle}\OR\ifcurrentfield{booksubtitle}%
+    \OR\ifcurrentfield{maintitle}\OR\ifcurrentfield{mainsubtitle}%
+    \OR\ifcurrentfield{journaltitle}\OR\ifcurrentfield{journalsubtitle}%
+    \OR\ifcurrentfield{issuetitle}\OR\ifcurrentfield{issuesubtitle}%
+    \OR\ifentrytype{book}\OR\ifentrytype{mvbook}\OR\ifentrytype{bookinbook}%
+    \OR\ifentrytype{booklet}\OR\ifentrytype{suppbook}%
+    \OR\ifentrytype{collection}\OR\ifentrytype{mvcollection}%
+    \OR\ifentrytype{suppcollection}\OR\ifentrytype{manual}%
+    \OR\ifentrytype{periodical}\OR\ifentrytype{suppperiodical}%
+    \OR\ifentrytype{proceedings}\OR\ifentrytype{mvproceedings}%
+    \OR\ifentrytype{reference}\OR\ifentrytype{mvreference}%
+    \OR\ifentrytype{report}\OR\ifentrytype{thesis}}
+    {#1}
+    {\MakeSentenceCase{#1}}}
+    
+\renewbibmacro{in:}{}
+%-- no "quotes" around titles of chapters/article titles
+\DeclareFieldFormat[article, inbook, incollection, inproceedings, misc, thesis, unpublished]
+{title}{#1}
+%-- no punctuation after volume
+\DeclareFieldFormat[article]
+{volume}{{#1}}
+%-- puts number/issue between brackets
+\DeclareFieldFormat[article, inbook, incollection, inproceedings, misc, thesis, unpublished]
+{number}{\mkbibparens{#1}} 
+%-- and then for articles directly the pages w/o any "pages" or "pp." 
+\DeclareFieldFormat[article]
+{pages}{#1}
+%-- for some types replace "pages" by "p."
+\DeclareFieldFormat[inproceedings, incollection, inbook]
+{pages}{p. #1}
+%-- format 16(4):224--225 for articles
+\renewbibmacro*{volume+number+eid}{
+  \printfield{volume}%
+  \printfield{number}%
+  \printunit{\addcolon}
+}
+
+
+\newcommand*{\bibtitle}{$bibliography-heading-in-pdf$}
+$else$
+\usepackage[style=numeric-comp, sorting=none, backend=biber, doi=$if(doi-in-bibliography)$$doi-in-bibliography$$else$false$endif$, isbn=false]{biblatex}
+\newcommand*{\bibtitle}{$bibliography-heading-in-pdf$}
+$endif$
+
+% This makes the bibliography left-aligned (not 'justified') and slightly smaller font.
+\renewcommand*{\bibfont}{\raggedright\small}
+
+% Change this to the name of your .bib file (usually exported from a citation manager like Zotero or EndNote).
+\addbibresource{$bibliography$}
 
 
 % Uncomment this if you want equation numbers per section (2.3.12), instead of per chapter (2.18):
@@ -282,5 +348,7 @@ $body$
 
 % {\renewcommand*\MakeUppercase[1]{#1}%
 % \printbibliography[heading=bibintoc,title={\bibtitle}]}
+
+% \printbibliography
 
 \end{document}

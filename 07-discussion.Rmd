@@ -115,3 +115,4 @@ Ecology has entered an era of "big data," and **chapter \@ref(forecast)** provid
 <!--     + The interplay of individual traits, evolutionary pressures, external cues and threats, changing habitats. Able to understand drivers of behavior on multiple levels -->
 <!-- + potential hypothesis of climate change causing more variation, in addition to shifts (a la flycatcher patterns, with small sample sizes) -->
 
+\printbibliography[segment=\therefsection,heading=subbibliography]

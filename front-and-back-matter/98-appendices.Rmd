@@ -11,6 +11,30 @@ output:
 
 
 
+
+
+# Supplementary material for chapter \@ref(lights) {#app-lights-supp}
+
+<!-- \hypertarget{app-lights-supp}{ -->
+<!-- \chapter{Supplementary Material for Chapter {\@ref(lights)}}\label{app-lights-supp}} -->
+
+```{r, include=T, results='asis', eval=knitr::is_latex_output(),echo=F,message=F}
+cat('\\newpage')
+```
+
+
+```{r app-lights-supp, include=T, echo=F, results='asis'}
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/lights/supp-tables-model"),pattern="lights_supp_crop_Part",full.names = T)
+
+
+cat(paste0("\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=1.2\\linewidth]{", pages, "}} \\end{center} \\newpage \n"))
+```
+
+
+
+
+
+
 ```{block type='savequote', include=knitr::is_latex_output()}
 Horton, K.G., **Van Doren, B.M.**, La Sorte, F.A., Cohen, E.B., Clipp, H., Buler, J.J., Fink, D., Kelly, J.F., and Farnsworth, A. (2019). Holding steady: Little change in intensity or timing of bird migration over the Gulf of Mexico. *Global Change Biology*. 25, 1106-1118. 
 ```

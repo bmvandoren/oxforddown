@@ -270,7 +270,7 @@ In the **General Discussion**, I synthesize the work discussed in Chapters \@ref
 <!--   - short-term stimulus light - effects on flight behavior -->
 <!--   - longer term (?) climate change / food availability - effects on ecology, behavior, distribution  -->
 
-
+\printbibliography[segment=\therefsection,heading=subbibliography]
 
 
 

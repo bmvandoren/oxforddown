@@ -51,7 +51,7 @@ output:
   bookdown::pdf_book:
     template: templates/template.tex
     keep_tex: true
-    # citation_package: biblatex
+    citation_package: biblatex
     pandoc_args: ["--lua-filter=scripts_and_filters/correction_filter.lua"] #remove filter to stop applying blue background to inline corrections
   bookdown::gitbook:
     css: templates/style.css
@@ -65,7 +65,7 @@ output:
 link-citations: true
 documentclass: book
 
-csl: /Users/Benjamin/Zotero/styles/ecology.csl
+# csl: /Users/Benjamin/Zotero/styles/ecology.csl
 
 ---
 
