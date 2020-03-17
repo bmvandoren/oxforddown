@@ -1,5 +1,5 @@
 pdf:
-	Rscript -e 'bookdown::render_book("index.Rmd", output_format = "bookdown::pdf_book")'
+	Rscript -e 'bookdown::render_book("index.Rmd", output_format = "bookdown::pdf_book"); warnings(file = "warnings.txt")'
 	rm -f *.log *.mtc* *.maf *.aux *.bcf *.lof *.lot *.out *.toc front-and-back-matter/abbreviations.aux
 	Rscript -e 'browseURL("docs/_main.pdf")'
 
