@@ -100,7 +100,7 @@ $if(bib-humanities)$
     style=authoryear, 
     firstinits=true,
     isbn=false,
-    doi=false,
+    doi=true,
     url=false,
     eprint=false,
     related=false,
@@ -109,7 +109,7 @@ $if(bib-humanities)$
     maxcitenames=2,
     mincitenames=1,
     maxbibnames=10,
-    abbreviate=true,
+    abbreviate=false,
     minbibnames=3,
     date=year
 ]{biblatex}
@@ -136,7 +136,11 @@ $if(bib-humanities)$
     {#1}
     {\MakeSentenceCase{#1}}}
     
-\renewbibmacro{in:}{}
+% \renewbibmacro{in:}{}
+% suppress "in" for articles
+% https://tex.stackexchange.com/questions/10682/suppress-in-biblatex
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
 %-- no "quotes" around titles of chapters/article titles
 \DeclareFieldFormat[article, inbook, incollection, inproceedings, misc, thesis, unpublished]
 {title}{#1}
@@ -158,7 +162,6 @@ $if(bib-humanities)$
   \printfield{number}%
   \printunit{\addcolon}
 }
-
 
 \newcommand*{\bibtitle}{$bibliography-heading-in-pdf$}
 $else$
