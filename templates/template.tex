@@ -221,8 +221,8 @@ $endif$
 %\setlength{\textbaselineskip}{18pt plus2pt minus1pt}
 
 % You can set the spacing here for the roman-numbered pages (acknowledgements, table of contents, etc.)
-% \setlength{\frontmatterbaselineskip}{17pt plus1pt minus1pt}
-\setlength{\frontmatterbaselineskip}{16pt plus1pt minus1pt}
+\setlength{\frontmatterbaselineskip}{17pt plus1pt minus1pt}
+% \setlength{\frontmatterbaselineskip}{16pt plus1pt minus1pt}
 
 % UL: You can set the line and paragraph spacing here for the separate abstract page to be handed in to Examination schools
 \setlength{\abstractseparatelineskip}{13pt plus1pt minus1pt}
@@ -310,7 +310,9 @@ $endif$
 \flushbottom
 
 % This is where the whole-document ToC appears:
+\setlength{\baselineskip}{16pt plus1pt minus1pt} % smaller to fit onto one page
 \tableofcontents
+\setlength{\baselineskip}{\frontmatterbaselineskip} % back to normal
 
 $if(lof)$
 \listoffigures
