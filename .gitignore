@@ -10,3 +10,8 @@ _todo.md
 *.pdf
 *.pdf
 *.pdf
+*_files
+warnings.txt
+*.html
+*.log
+*.docx
