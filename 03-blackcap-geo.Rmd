@@ -11,7 +11,7 @@ bibliography: references.bib
 \part{A continental perspective}
 
 ```{block type='savequote', include=knitr::is_latex_output()}
-Delmore, K.,* **Van Doren, B.M.**,* Conway, G.J., Curk, T., Garrido-Garduño, T., Germain, R.R., Hasselmann, T., Hiemer, D., van der Jeugd, H.P., Justen, H., Lugo Ramos, J.S., Maggini, I., Phillips, R.J., Remisiewicz, M., Roberts, G.C.M., Sheldon, B.C., Vogl, W., and Liedvogel, M. Versatile migratory strategies and evolutionary insights revealed by tracks of wild Eurasian blackcaps. Formatted for *Current Biology*.
+Delmore, K.,* **Van Doren, B.M.**,* Conway, G.J., Curk, T., Garrido-Garduño, T., Germain, R.R., Hasselmann, T., Hiemer, D., van der Jeugd, H.P., Justen, H., Lugo Ramos, J.S., Maggini, I., Phillips, R.J., Remisiewicz, M., Roberts, G.C.M., Sheldon, B.C., Vogl, W., and Liedvogel, M. Formatted for *Current Biology*.
 \begin{scriptsize} * Equal contributions. \end{scriptsize}
 ```
 

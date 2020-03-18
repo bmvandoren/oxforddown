@@ -10,7 +10,7 @@ bibliography: references.bib
 
 
 ```{block type='savequote', include=knitr::is_latex_output()}
-**Van Doren, B.M.**, Conway, G.J., Phillips, R.J., Evans, G.C., Roberts, G.C.M., Liedvogel, M., and Sheldon, B.C. Human activity shapes the wintering ecology of a migratory bird. 
+**Van Doren, B.M.**, Conway, G.J., Phillips, R.J., Evans, G.C., Roberts, G.C.M., Liedvogel, M., and Sheldon, B.C.
 <!-- Formatted for *Current Biology*. -->
 ```
 
