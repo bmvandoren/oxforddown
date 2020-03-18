@@ -11,6 +11,22 @@ output:
 
 
 
+# Supplementary material for chapter \@ref(stonechats) {#app-stonechats-supp}
+
+```{r, include=T, results='asis', eval=knitr::is_latex_output(),echo=F,message=F}
+cat('\\newpage')
+```
+
+
+```{r app-zug-supp, include=T, echo=F, results='asis'}
+pages <- list.files(file.path("/Users/Benjamin/Documents/Oxford/Thesis/oxforddown/pdf_chapters/zug"),pattern="zug_supp_crop_Part",full.names = T)
+
+cat(paste0("\\begin{center} \\includegraphics[width=1\\linewidth]{",pages,"} \\end{center} \\newpage \n"))
+```
+
+
+
+
 
 
 # Supplementary material for chapter \@ref(lights) {#app-lights-supp}
