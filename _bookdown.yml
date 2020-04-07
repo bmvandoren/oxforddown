@@ -6,10 +6,20 @@
 
 # If you specify a sub directory with rmd_subdir, then bookdown will search through this
 # folder too
-rmd_subdir: ["front-and-back-matter"]
+#rmd_subdir: ["front-and-back-matter"]
 
 # Alternatively, you can comment out rmd_subdir and specify manually what files to include with rmd_files
-#rmd_files: ["index.Rmd", "01-programmed_and_flexible.Rmd", "02-evolutionary_response.Rmd","05-high_intensity_lights.Rmd", "07-discussion.Rmd",  "front-and-back-matter/98-appendices.Rmd","front-and-back-matter/99-references.Rmd"]
+rmd_files: ["index.Rmd", 
+            "01-programmed_and_flexible.Rmd", 
+            "02-evolutionary_response.Rmd",
+            "03-blackcap-geo.Rmd",
+            "04-continental_system.Rmd",
+            "05-high_intensity_lights.Rmd",
+            "06-blackcap-uk.Rmd",
+            "07-discussion.Rmd",
+            "front-and-back-matter/98-appendices.Rmd",
+            "front-and-back-matter/99-references.Rmd"]
+#rmd_files: ["index.Rmd", "extensions_bvd.Rmd","front-and-back-matter/99-references.Rmd"]
   
 output_dir: "docs"
 
