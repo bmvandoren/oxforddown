@@ -9,7 +9,7 @@ output:
 
 \vspace{8pt}
 
-**Ben C. Sheldon** (supervisor, co-author of chapter \@ref(blackcap-uk)) secured funding and provided intellectual input, guidance, and feedback. 
+**Ben C. Sheldon** (supervisor, co-author of chapters \@ref(blackcap-geo) and \@ref(blackcap-uk)) secured funding and provided intellectual input, guidance, and feedback. 
 
 **Sonya M. Clegg** (supervisor) provided intellectual input, guidance, and feedback. 
 
