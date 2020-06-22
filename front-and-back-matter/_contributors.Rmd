@@ -13,9 +13,9 @@ output:
 
 **Sonya M. Clegg** (supervisor) provided intellectual input, guidance, and feedback. 
 
-**Miriam Liedvogel** (co-author of chapters \@ref(stonechats), \@ref(blackcap-geo) and \@ref(blackcap-uk)) secured funding and provided intellectual input, guidance, and written contributions for all co-authored chapters.
+**Miriam Liedvogel** (co-author of chapters \@ref(stonechats), \@ref(blackcap-geo) and \@ref(blackcap-uk)) secured funding and provided intellectual input, guidance, and written contributions for co-authored chapters.
 
-**Barbara Helm** (co-author of chapters \@ref(stonechats) and \@ref(flycatchers)) provided intellectual input, guidance, and written contributions for all co-authored chapters.
+**Barbara Helm** (co-author of chapters \@ref(stonechats) and \@ref(flycatchers)) provided intellectual input, guidance, and written contributions for co-authored chapters.
 
 ### *Additional contributors*
 

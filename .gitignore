@@ -7,11 +7,10 @@ _main.bbl
 _main.blg
 _main.run.xml
 _todo.md
-*.pdf
-*.pdf
-*.pdf
+./*.pdf
 *_files
 warnings.txt
 *.html
 *.log
 *.docx
+*.pdf
