@@ -10,6 +10,8 @@ bibliography: references.bib
 
 ```{block type='savequote', include=knitr::is_latex_output()}
 **Van Doren, B.M.** and Horton, K.G. (2018). A continental system for forecasting bird migration. *Science* 361, 1115–1118.
+
+Reprinted with permission from AAAS.
 ```
 
 <!-- 
